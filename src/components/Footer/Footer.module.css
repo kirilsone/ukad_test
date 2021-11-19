@@ -1,0 +1,25 @@
+/*Footer*/
+.footer {
+    height: 9vh;
+    background-color: #022B32;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.copyright{
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    .footer {
+
+    }
+    .copyright{
+margin: 0 auto;
+    }
+}

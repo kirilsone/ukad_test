@@ -1,0 +1,58 @@
+/* LOGO */
+.logoImg {
+    width: 100%;
+    max-width: 110px;
+    min-width: 60px;
+}
+/* NAVBAR STYLING STARTS */
+.navWrap {
+    width: 100%;
+    background-color: #022B32;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    font-size: 16px;
+    width: 351px;
+}
+.menu a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu li:hover {
+    transition: 0.3s ease;
+    text-decoration-line: underline;
+}
+.menu li {
+    margin-top: 4px;
+}
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 400px){
+.logoLink {
+    display: none;
+}
+    .menu {
+        margin: 0 auto;
+        padding: 0;
+        width: 70%;
+        justify-content: space-between;
+    }
+    .menu a {
+        font-size: 18px;
+    }
+    .menu li {
+        margin-top: 0;
+    }
+
+}
+
+
+
