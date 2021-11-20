@@ -5,7 +5,6 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Products from "./components/Products/Products";
 
-
 const App = () => {
   return (
       <div className={'appWrap'}>
