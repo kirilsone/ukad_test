@@ -1,0 +1,14 @@
+.cards{
+    border: 2px red solid;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 412px) {
+    .cards {
+        display: block;
+        margin: unset;
+    }
+}

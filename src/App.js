@@ -9,8 +9,9 @@ const App = () => {
   return (
       <div className={'appWrap'}>
           <Header/>
-          <Home/>
-          <Products/>
+           <div id={'main'}>
+              <Products/>
+           </div>
           <Footer/>
       </div>
   );

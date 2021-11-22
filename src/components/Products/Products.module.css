@@ -1,7 +1,17 @@
-.ProductWrap h2 {
-    font-size: 60px;
+.ProductWrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-.ProductWrap {
-    display: none;
+@media (max-width: 412px) {
+    .ProductWrap{
+        
+    }
 }

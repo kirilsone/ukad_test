@@ -1,25 +1,23 @@
 /*Footer*/
 .footer {
-    height: 9vh;
-    background-color: #022B32;
     display: flex;
-    position: absolute;
-    bottom: 0;
+    height: 8vh;
     width: 100%;
+    background-color: #022B32;
+    padding: 1em;
 }
 .copyright{
     color: #ffffff;
     font-weight: 400;
-    margin-left: 30px;
     display: flex;
     align-items: center;
 }
 
 @media (max-width: 400px){
     .footer {
-
+        height: 5vh;
     }
     .copyright{
-margin: 0 auto;
+        margin: 0 auto;
     }
 }
