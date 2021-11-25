@@ -20,9 +20,10 @@ p {
     font-size: 19px;
     line-height: 28px;
 }
+
 @media (max-width: 768px) {
     .textW{
-        padding: 0 5px 5px 5px;
+        padding: 5px;
     }
 
 }
