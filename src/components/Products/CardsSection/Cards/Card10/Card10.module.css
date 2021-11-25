@@ -1,0 +1,10 @@
+.card4{
+text-align: unset;
+}
+
+@media (max-width: 412px) {
+    .cards__item{
+        min-width: 280px;
+        height: 300px;
+    }
+}

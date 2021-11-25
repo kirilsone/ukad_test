@@ -1,8 +1,6 @@
 .cards__item{
-    /* There will be 4 cards per row */
     flex-basis: 23%;
     min-width: 200px;
-    height: 300px;
     max-width: 350px;
     border: 1px black solid;
     margin: 0 auto 40px auto;
