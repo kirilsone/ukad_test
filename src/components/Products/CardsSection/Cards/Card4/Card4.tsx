@@ -10,9 +10,6 @@ const Card4 = () => {
             <h6>Hardost</h6>
             <p>Falbygdens Rekommenderar LEtivaz AOP opast hardost</p>
         </div>
-
-
-
     </>
 }
 
