@@ -11,6 +11,7 @@ const App = () => {
           <Header/>
            <div id={'main'}>
               <Products/>
+               <Home/>
            </div>
           <Footer/>
       </div>

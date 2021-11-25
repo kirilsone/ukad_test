@@ -1,11 +1,13 @@
 .cards__item{
-    flex-basis: 23%;
-    min-width: 200px;
-    max-width: 350px;
+    flex: 1 1 22%;
+    max-width: 20rem;
+    min-width: 15rem;
     border: 1px black solid;
-    margin: 0 auto 40px auto;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 0 10px 10px;
+}
+.card4{
+    width: 100%;
+    max-height: 475px;
 }
 
 @media (max-width: 412px) {
