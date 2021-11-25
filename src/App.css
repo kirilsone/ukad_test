@@ -4,7 +4,6 @@
     flex-direction: column;
     margin: 0;
 }
-
 #main {
     display: flex;
     flex: 1;

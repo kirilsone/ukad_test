@@ -1,7 +1,7 @@
 .ProductWrap{
     display: flex;
     flex-direction: column;
-    max-width: 80rem;
+    max-width: 85rem;
     margin: 0 auto;
 }
 h2 {

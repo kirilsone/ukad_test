@@ -1,0 +1,22 @@
+.imgW{
+    max-width: 350px;
+    max-height: 362px;
+}
+.textW{
+padding: 0 30px 30px 30px;
+}
+h6 {
+    font-size: 0.6316rem;
+    line-height: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    padding-bottom: 7px;
+}
+p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 28px;
+}

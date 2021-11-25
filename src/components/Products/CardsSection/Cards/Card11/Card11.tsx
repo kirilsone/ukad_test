@@ -1,9 +1,9 @@
-import s from './Card11.module.css'
+import t from '../StyleTextCards.module.css'
 import img from './img/image 5.png'
 
 const Card11 = () => {
     return <>
-        <div className={s.card4}>
+        <div className={t.card}>
             <img src={img} alt={'11'}/>
         </div>
     </>

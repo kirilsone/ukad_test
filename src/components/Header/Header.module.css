@@ -33,7 +33,7 @@
 .menu li {
     margin-top: 6px;
 }
-/* APPLYING MEDIA QUERIES */
+
 @media (max-width: 400px){
     .logoLink {
         display: none;
@@ -51,6 +51,8 @@
         margin-top: 0;
     }
 }
+
+
 
 
 

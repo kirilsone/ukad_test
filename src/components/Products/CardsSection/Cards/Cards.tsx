@@ -8,7 +8,6 @@ import Card7 from "./Card7/Card7";
 import Card9 from "./Card9/Card9";
 import Card11 from "./Card11/Card11";
 
-
 const Cards = () => {
     return <>
         <div className={s.cards__item}>

@@ -7,13 +7,6 @@
     flex-wrap: wrap;
 }
 
-
-@media (max-width: 412px) {
-    .cards {
-        display: block;
-    }
-}
-
 @media (max-width: 1180px) {
     .cards {
         justify-content: space-between;
