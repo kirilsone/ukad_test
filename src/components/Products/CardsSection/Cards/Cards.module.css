@@ -4,4 +4,11 @@
     border: 3px solid #F2F2F2;
 }
 
+@media (max-width: 768px) {
+    .cards__item{
+      display: flex;
+        align-items: center;
+    }
+}
+
 
