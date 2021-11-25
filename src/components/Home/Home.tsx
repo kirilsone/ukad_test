@@ -1,13 +1,35 @@
-import s from './Home.module.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import Carousel from "react-elastic-carousel";
+import Item from "./Item";
+import "./styles.css";
+
+const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2 },
+    { width: 768, itemsToShow: 2 },
+    { width: 1200, itemsToShow: 3 },
+];
+
 const Home = () => {
-    return <div className={s.HomeWrap}>
-        <div className={s.slider}><h2>Home Page</h2>
-            <div className={s.cardsWrap}>
-                <button className={s.arrow}>arrow</button>
-                <div className={s.card}/>
-            </div>
+    return <>
+        <h1 style={{ textAlign: "center" }}>Example to setup your carousel in react</h1>
+        <div className="App">
+            <Carousel breakPoints={breakPoints}>
+                <Item>One</Item>
+                <Item>Two</Item>
+                <Item>Three</Item>
+                <Item>Four</Item>
+                <Item>Five</Item>
+                <Item>Six</Item>
+                <Item>Seven</Item>
+                <Item>Eight</Item>
+            </Carousel>
         </div>
-    </div>
+    </>
 }
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Home />, rootElement);
 
 export default Home;
