@@ -6,6 +6,10 @@ const Card9 = () => {
         <div className={t.card}>
             <img src={img9} alt={'9'}/>
         </div>
+        <div className={t.textW}>
+            <h6>Hardost</h6>
+            <p>Falbygdens Rekommenderar Tryffelost opast 32%</p>
+        </div>
     </>
 }
 

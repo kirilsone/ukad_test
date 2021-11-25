@@ -1,8 +1,7 @@
 .cards__item{
     flex: 1 1 22%;
-    max-width: 20rem;
-    min-width: 15rem;
-    border: 1px black solid;
+    min-width: 18rem;
+    border: 3px solid #F2F2F2;
 }
 
 
