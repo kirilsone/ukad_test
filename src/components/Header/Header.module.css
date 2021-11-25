@@ -35,12 +35,9 @@
 }
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 400px){
-    .navWrap {
-        height: 7vh;
+    .logoLink {
+        display: none;
     }
-.logoLink {
-    display: none;
-}
     .menu {
         margin: 0 auto;
         padding: 0;
@@ -53,8 +50,9 @@
     .menu li {
         margin-top: 0;
     }
-
 }
+
+
 
 
 
