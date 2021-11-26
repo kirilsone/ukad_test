@@ -35,23 +35,7 @@
     margin-top: 6px;
 }
 
-@media (max-width: 400px){
-    .logoLink {
-        display: none;
-    }
-    .menu {
-        margin: 0 auto;
-        padding: 0;
-        width: 70%;
-        justify-content: space-between;
-    }
-    .menu a {
-        font-size: 18px;
-    }
-    .menu li {
-        margin-top: 0;
-    }
-}
+
 
 
 

@@ -11,6 +11,7 @@ import Card6 from "../Products/CardsSection/Cards/Card6/Card6";
 import Card7 from "../Products/CardsSection/Cards/Card7/Card7";
 import Card8 from "../Products/CardsSection/Cards/Card8/Card8";
 import Card9 from "../Products/CardsSection/Cards/Card9/Card9";
+import Card10 from "../Products/CardsSection/Cards/Card10/Card10";
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -33,6 +34,7 @@ const Home = () => {
                 <Item><Card7/></Item>
                 <Item><Card8/></Item>
                 <Item><Card9/></Item>
+                <Item><Card10/></Item>
             </Carousel>
         </div>
     </>
