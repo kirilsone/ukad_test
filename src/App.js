@@ -8,13 +8,14 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 const App = () => {
   return (
+
       <BrowserRouter>
       <div className={'appWrap'}>
           <Header/>
            <div id={'main'}>
                <Routes>
-                   <Route path='/home' component={Home}/>
-                   <Route path='/products' component={Products}/>
+                   <Route path="home" element={<Home/>} />
+                   <Route path="products" element={<Products/>} />
                </Routes>
            </div>
           <Footer/>
