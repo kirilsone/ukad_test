@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "./styles.css";
+import s from "./Home.module.css";
 import Card1 from "../Products/CardsSection/Cards/Card1/Card1";
 import Card2 from "../Products/CardsSection/Cards/Card2/Card2";
 import Card4 from "../Products/CardsSection/Cards/Card4/Card4";
@@ -21,6 +22,8 @@ const breakPoints = [
 const Home = () => {
     return<>
         <div className="App">
+            <div className={s.h2W}><h2>Home Page</h2>
+            </div>
             <Carousel breakPoints={breakPoints} isRTL={false}>
                 <Item><Card1/></Item>
                 <Item><Card2/></Item>

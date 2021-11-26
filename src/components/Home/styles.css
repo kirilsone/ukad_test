@@ -1,7 +1,7 @@
 .App {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     max-width: 95rem;
     width: 1500px;
@@ -14,5 +14,12 @@
 
 .carousel-wrapper {
     width: 100%;
+}
+
+@media (max-width: 768px){
+    .App {
+        display: flex;
+       align-items: center;
+    }
 }
 

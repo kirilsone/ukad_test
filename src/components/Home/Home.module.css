@@ -1,0 +1,9 @@
+.h2W{
+    display: flex;
+    padding-left: 90px;
+}
+@media (max-width: 768px){
+    .h2W{
+       padding-left: 0;
+    }
+}
