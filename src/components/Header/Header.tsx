@@ -1,14 +1,15 @@
 import React from "react";
 import logo from "./img/UKAD_logo.svg";
 import s from './Header.module.css';
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return <header className={s.navWrap}>
         <ul className={s.menu}>
-            <a className={s.logoLink} href="/home">
-                <img className={s.logoImg} src={logo} alt='Ukad'/></a>
-            <li><a href='/home'>Home</a></li>
-            <li><a href='/products'>Products</a></li>
+            <NavLink className={s.logoLink} to="/home">
+                <img className={s.logoImg} src={logo} alt='Ukad'/></NavLink>
+            <li><NavLink to='/home'>Home</NavLink></li>
+            <li><NavLink to='/products'>Products</NavLink></li>
         </ul>
     </header>
 }
