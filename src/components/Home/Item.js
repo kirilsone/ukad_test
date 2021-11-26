@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default styled.div`
   max-width: 420px;
-  max-height: 550px;
+  height: 100%;
   margin-left: 20px;
   background-color: #fff;
   color: black;
