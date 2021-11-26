@@ -10,7 +10,7 @@ const App = () => {
       <div className={'appWrap'}>
           <Header/>
            <div id={'main'}>
-              <Home/>
+               <Home/>
            </div>
           <Footer/>
       </div>

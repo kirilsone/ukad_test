@@ -1,14 +1,7 @@
-.cards__item{
+.cards__item {
     flex: 1 1 22%;
     min-width: 18rem;
     border: 3px solid #F2F2F2;
-}
-
-@media (max-width: 768px) {
-    .cards__item{
-      display: flex;
-        align-items: center;
-    }
 }
 
 

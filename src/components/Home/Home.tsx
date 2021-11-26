@@ -3,6 +3,10 @@ import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "./styles.css";
 import Card4 from "../Products/CardsSection/Cards/Card4/Card4";
+import Card5 from "../Products/CardsSection/Cards/Card5/Card5";
+import Card6 from "../Products/CardsSection/Cards/Card6/Card6";
+import Card7 from "../Products/CardsSection/Cards/Card7/Card7";
+import Card8 from "../Products/CardsSection/Cards/Card8/Card8";
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -19,10 +23,10 @@ const Home = () => {
                 <Item>Two</Item>
                 <Item>Three</Item>
                 <Item><Card4/></Item>
-                <Item>Five</Item>
-                <Item>Six</Item>
-                <Item>Seven</Item>
-                <Item>Eight</Item>
+                <Item><Card5/></Item>
+                <Item><Card6/></Item>
+                <Item><Card7/></Item>
+                <Item><Card8/></Item>
             </Carousel>
         </div>
     </>
