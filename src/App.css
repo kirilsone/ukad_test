@@ -10,3 +10,9 @@
     padding: 5vh 1vw;
 }
 
+@media (max-width: 550px){
+    #main {
+        padding: 0 1vw;
+    }
+}
+
