@@ -3,10 +3,6 @@ In the project directory, you can run:
 
 ### `npm install --dev typescript`
 
-### `npm install --save react-elastic-carousel` 
-
-### `npm install --save styled-components`
-
 ### `npm start`
 
 Runs the app in the development mode.\
